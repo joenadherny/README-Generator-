@@ -1,7 +1,10 @@
 // Include packages needed for this application
-const fs = require('fs');
-const inquirer = require('inquirer');
-const generateMarkdown = require('./utils/generateMarkdown');
+import fs from 'fs';
+//const fs = require('fs');
+import inquirer from 'inquirer';
+//const inquirer = require('inquirer');
+import generateMarkdown from './utils/generatorMarkdown.mjs'
+//const generateMarkdown = require('./utils/generateMarkdown');
 
 // Array of questions for user input
 const questions = [

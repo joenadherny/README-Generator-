@@ -69,6 +69,6 @@ function renderLicenseBadge(license) {
   For any questions, please contact [${data.githubUsername}](https://github.com/${data.githubUsername}) or email at ${data.email}.
   `;
   }
-  
-  module.exports = generateMarkdown;
+  export default generateMarkdown;
+  //module.exports = generateMarkdown;
   
